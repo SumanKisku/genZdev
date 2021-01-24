@@ -57,12 +57,14 @@ const IndexPage = () => {
 
     <Header text={"Our Packages"}></Header>
     <div className="flex flex-row justify-center space-x-8">
-    <Card heading={"Basic Website"} list={['Home Page', 'About Page', 'Contact Page']}></Card>
-    <Card heading={"Blog Website"} list={['Basic Website', 'Blog Page']}></Card>
+    <Card heading={"Basic Website"} list={['Home Page', 'About Page', 'Contact Page']} price={"2999 Inr Only"}></Card>
+    <Card heading={"Blog Website"} list={['Basic Website', 'Blog Page']} price={"3999 Inr Only"}></Card>
     </div>
     <Button text={"Send A Request"}></Button>
+    <div className="mt-24">
     <Header text={"Contact GenZdev today and see how we can help your business grow"}></Header>
     <Subtext text={"Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"}></Subtext>
+    </div>
     <ContactForm></ContactForm>
     </main>
     <Footer></Footer>

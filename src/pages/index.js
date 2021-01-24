@@ -7,7 +7,7 @@ import Button from './components/Button'
 import Header from './components/Header'
 import Feature from './components/Feature'
 import Card from './components/Card'
-import ContactForm from './components/ContactForm'
+import Form from './components/Form'
 import Footer from './components/Footer'
 
 // import images
@@ -65,7 +65,7 @@ const IndexPage = () => {
     <Header text={"Contact GenZdev today and see how we can help your business grow"}></Header>
     <Subtext text={"Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"}></Subtext>
     </div>
-    <ContactForm></ContactForm>
+    <Form></Form>
     </main>
     <Footer></Footer>
     </div>

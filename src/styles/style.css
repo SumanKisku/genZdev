@@ -50,8 +50,12 @@ body {
     left: 0;
     background-image: url("../images/genzdev-hero-image.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     opacity: .4;
     z-index: -1;
+}
+
+#menu-toggle:checked + #menu {
+    transform: translateX(0%);
 }

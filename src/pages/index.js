@@ -19,11 +19,12 @@ import shadow from '../images/hero-bottom-shadow.png'
 // markup
 const IndexPage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
+      <Navigaton></Navigaton>
     <main>
       {/* Start Hero section */}
     <section className="hero flex flex-col w-full">
-    <Navigaton></Navigaton>
+    
     <div>
     <MainHeader text={"It's time to make your business stand out"}></MainHeader>
     <Subtext title={"GenZdev."} text={"is here to help you achieve your business and personal goals, all through a stylish theme"}></Subtext>

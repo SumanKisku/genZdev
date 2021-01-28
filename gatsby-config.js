@@ -3,17 +3,17 @@ module.exports = {
     title: "genZdev",
   },
   plugins: [
-    "gatsby-plugin-emotion",
+    // "gatsby-plugin-emotion",
     // {
     //   resolve: "gatsby-plugin-google-analytics",
     //   options: {
     //     trackingId: "",
     //   },
     // },
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-sitemap",
-    "gatsby-plugin-mdx",
-    "gatsby-transformer-sharp",
+    // "gatsby-plugin-sharp",
+    // "gatsby-plugin-sitemap",
+    // "gatsby-plugin-mdx",
+    // "gatsby-transformer-sharp",
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-filesystem",

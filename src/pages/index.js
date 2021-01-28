@@ -25,7 +25,7 @@ const IndexPage = () => {
       {/* Start Hero section */}
     <section className="hero flex flex-col w-full">
     
-    <div className="md:mt-20">
+    <div className="md:mt-20 lg:mt-28">
     <MainHeader text={"It's time to make your business stand out"}></MainHeader>
     <Subtext title={"GenZdev."} text={"is here to help you achieve your business and personal goals, all through a stylish theme"}></Subtext>
     <Button text={"Send A Request"}></Button>

@@ -48,7 +48,7 @@ const IndexPage = () => {
     <Header text={"We have the website to help you suceed"}></Header>
     <Subtext title={"GenZdev"} text={"is perfect for helping to to start and grow your business. As you begin to gain new clients and expand you will see the benefits of a super-ftast Gatsby website"}></Subtext>
     </div>
-    <div className="features md:flex md:flex-row md:justify-center mt-40">
+    <div className="features md:flex md:flex-row md:justify-center my-16">
       <Feature src={speed} text={"Speedy"} subtext={"Super-fast response times ensure your business is not affected"} alt={"Speed"}></Feature>
       <Feature src={affordable} text={"Affordable"} subtext={"A choice of packages to suit every business type and size"} alt={"Piggy Bank"}></Feature>
       <Feature src={friendly} text={"Friendly"} subtext={"Advisors who are available 24/7, all with exprt knowledge"} alt={"Smily Image"}></Feature>
@@ -59,8 +59,6 @@ const IndexPage = () => {
     <Header text={"Our Packages"}></Header>
     <div className="flex flex-row justify-center space-x-8">
       <Pricing></Pricing>
-    {/* <Card heading={"Basic Website"} list={['Home Page', 'About Page', 'Contact Page']} price={"2999 Inr Only"}></Card>
-    <Card heading={"Blog Website"} list={['Basic Website', 'Blog Page']} price={"3999 Inr Only"}></Card> */}
     </div>
     <Button text={"Send A Request"}></Button>
     <div className="mt-24">

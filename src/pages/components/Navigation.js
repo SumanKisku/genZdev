@@ -19,7 +19,7 @@ export default function Navigation(props) {
     ];
     
   return (
-      <nav className="m-6 md:flex md:flex-row md:justify-between">
+      <nav data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="easeOutSine" className="m-6 md:flex md:flex-row md:justify-between">
           <div className="logo text-xl m-1 font-medium text-white">
               GenZdev.
           </div>

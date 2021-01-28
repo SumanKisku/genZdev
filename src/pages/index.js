@@ -25,7 +25,7 @@ const IndexPage = () => {
       {/* Start Hero section */}
     <section className="hero flex flex-col w-full">
     
-    <div>
+    <div className="md:mt-20">
     <MainHeader text={"It's time to make your business stand out"}></MainHeader>
     <Subtext title={"GenZdev."} text={"is here to help you achieve your business and personal goals, all through a stylish theme"}></Subtext>
     <Button text={"Send A Request"}></Button>
@@ -39,7 +39,7 @@ const IndexPage = () => {
 
     {/* Start Details Section */}
     <section className="details relative">
-      <div className="mt-28">
+      <div className="mt-4 lg:mt-16">
     <Header text={"Developing a new business is never easy, but GenZdev. is here to help"}></Header>
     <Subtext text={"With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."}></Subtext>
     </div>

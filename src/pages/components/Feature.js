@@ -5,7 +5,7 @@ import Subtext from './Subtext'
 
 export default function Feature(props) {
   return (
-    <div className="feature">
+    <div className="feature my-7">
       <FeatureImage src={props.src} alt={props.alt}></FeatureImage>
       <FeatureText text={props.text}></FeatureText>
       <Subtext text={props.subtext}></Subtext>

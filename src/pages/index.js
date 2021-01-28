@@ -6,7 +6,7 @@ import Subtext from './components/Subtext'
 import Button from './components/Button'
 import Header from './components/Header'
 import Feature from './components/Feature'
-import Card from './components/Card'
+import Pricing from './components/Pricing'
 import Form from './components/Form'
 import Footer from './components/Footer'
 
@@ -58,8 +58,9 @@ const IndexPage = () => {
 
     <Header text={"Our Packages"}></Header>
     <div className="flex flex-row justify-center space-x-8">
-    <Card heading={"Basic Website"} list={['Home Page', 'About Page', 'Contact Page']} price={"2999 Inr Only"}></Card>
-    <Card heading={"Blog Website"} list={['Basic Website', 'Blog Page']} price={"3999 Inr Only"}></Card>
+      <Pricing></Pricing>
+    {/* <Card heading={"Basic Website"} list={['Home Page', 'About Page', 'Contact Page']} price={"2999 Inr Only"}></Card>
+    <Card heading={"Blog Website"} list={['Basic Website', 'Blog Page']} price={"3999 Inr Only"}></Card> */}
     </div>
     <Button text={"Send A Request"}></Button>
     <div className="mt-24">

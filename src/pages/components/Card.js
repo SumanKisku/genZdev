@@ -6,7 +6,7 @@ export default function Feature(props) {
       {/* <div className="w-full h-full border border-gray-100 bg-black absolute"></div> */}
       <h4 className="text-2xl font-bold">{props.heading}</h4>
       <ul className="mt-2 list-disc">
-          {props.list.map((elem) => <li className="ml-5">{elem}</li>)}
+          {props.list}
       </ul>
       <div className="transform translate-x-6 absolute bottom-3">
         <span>{props.price}</span>

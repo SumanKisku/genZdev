@@ -14,6 +14,7 @@ module.exports = {
     // "gatsby-plugin-sitemap",
     // "gatsby-plugin-mdx",
     // "gatsby-transformer-sharp",
+    "gatsby-transformer-remark",
     "gatsby-plugin-scroll-reveal",
     "gatsby-plugin-postcss",
     {

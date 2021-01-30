@@ -21,7 +21,7 @@ export default function Navigation(props) {
   return (
       <nav data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="easeOutSine" className="m-6 md:flex md:flex-row md:justify-between">
           <div className="logo text-xl m-1 font-medium text-white">
-              GenZdev.
+              <Link to="/">GenZdev</Link>
           </div>
           <label for="menu-toggle" className="cursor-pointer md:hidden block">
           <svg className="w-6 text-gray-100 absolute top-7 right-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
